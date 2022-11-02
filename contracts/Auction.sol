@@ -95,3 +95,4 @@ contract EnglishAuction {
         emit End(highestBidder, highestBid);
     }
 }
+
