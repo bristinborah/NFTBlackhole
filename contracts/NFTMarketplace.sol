@@ -37,7 +37,7 @@ contract NFTMarketplace is ERC721URIStorage{
       require(msg.sender==owner, "Only owner have the authority");
       _ ;
     }
-        constructor() ERC721("NFT Blackhole Token", "BHT"){
+        constructor() ERC721("NFT Blockhole Token", "BHT"){
             owner == payable(msg.sender);
         }
 
